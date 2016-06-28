@@ -1,0 +1,92 @@
+#symbol{
+  width: 40px;
+  height: 40px;
+}
+#Irish{
+  width: 60px;
+  height: 40px
+}
+h2{
+  font-family: "Marker Felt",Trebuchet MS;
+  text-align: center;
+  margin: 35px;
+
+}
+h4{
+  font-family: "Marker Felt",Trebuchet MS;
+  text-align: center;
+  margin: 35px;  
+}
+h5{
+  font-family: "Marker Felt",Trebuchet MS;
+  font-size: 17.5px;
+}
+
+.list ;{
+  font-family: "Marker Felt",Trebuchet MS;
+  color: red;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  margin: 20px;
+  color: white;
+}
+.item{
+  font-family: "Marker Felt",Trebuchet MS;
+  font-size: 20px;
+  color: red;
+  margin: 5px ;
+
+}
+p{
+  font-family: "Marker Felt",Trebuchet MS;
+  margin: 20px;
+  color: green;
+  font-size: 15.5px
+}
+}
+a{
+  font-family: "Marker Felt",Trebuchet MS;
+  font-size: 2rem;
+  color: red;
+
+}
+li{
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Marker Felt"Trebuchet MS;
+  color: red 
+}
+h3{
+  text-align: center;
+  font-family: "Marker Felt"Trebuchet MS;
+}
+h6{
+  font-size: 500px;
+}
+b{
+  font-size: 15px;
+}
+.poker{
+  font-size: 200px;
+}
+.ion-home{
+  size: 1rem;
+}
+#divide{
+  margin: 0px;
+}
+.indent{
+  font-family: "Marker Felt"Trebuchet MS;
+  margin: 13px
+}
+.big_indent{
+  font-size: 13px
+}
+#divide{
+  text-align: center;
+}
+#hands{
+  font-size: 25px;
+}

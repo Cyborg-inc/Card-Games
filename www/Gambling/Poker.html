@@ -1,0 +1,66 @@
+<html class="Poker">
+  <head>
+  <STYLE>
+  <!--
+  A{text-decoration:none}
+  -->
+  </STYLE>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then remove the CSS include above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="../lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="../cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="../js/app.js"></script>
+  </head>
+  
+  <body bgcolor="lightblue" ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-calm">
+        <h2 class="title">Poker</h2>
+      </ion-header-bar>
+      <div class="tabs tabs-calm tabs-icon-only">
+          <a  href="../index.html" class="tab-item">
+            <i class="icon ion-home"></i>
+          </a>
+          <a href="../Favorites.html" class="tab-item">
+            <i class="icon ion-star"></i>
+          </a>
+        </div>
+      <ion-content class="has-header">
+      <link href="../style.css" rel="stylesheet">
+    <div class="list">
+    <div id="divide" class="item item-stable item-divider ">Basic rules</div>
+
+    <a href="Bet_raise.html"><div class="item item-dark">Betting and raising</div></a> 
+
+    <a href="Hand_Ranks.html"><div class="item item-stable">Hand rankings</div></a>   
+
+    <div id="divide" class="item item-stable item-divider ">Differnet types of poker</div>
+
+
+    <a href="Texas_Holdem.html" data-transition="slide"><div class="item item-royal item-button-right">Texas hold'em</div></a>
+
+    <a href="Omaha.html"><div class="item item-energized item-button-right">Omaha</div></a>
+    
+</div>
+</ul>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

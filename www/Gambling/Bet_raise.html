@@ -1,0 +1,73 @@
+<html class="Bet_Raise">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    
+
+    <!-- IF using Sass (run gulp sass first), then remove the CSS include above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="../lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="../cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="../js/app.js"></script>
+  </head>
+
+  <body class="info" ng-app="starter">
+    <ion-pane>
+      <ion-header-bar class="bar-calm">
+        <h2 class="title">Betting and Raising</h2>
+      </ion-header-bar>
+      <div class="tabs tabs-calm tabs-icon-only">
+          <a  href="Poker.html" class="tab-item">
+            <i class="icon ion-arrow-left-a"></i>
+          </a>
+          <a  href="../index.html" class="tab-item">
+            <i class="icon ion-home"></i>
+          </a>
+          <a href="../Favorites.html" class="tab-item">
+            <i class="icon ion-star"></i>
+          </a>
+        </div>
+      <ion-content class="has-header">
+      <h3>At the start</h3>
+      <p>Players in poker act in turn<br>   In clockwise rotation<br>when it is a player's turn the first verbal declaration of action binds them to that action<br> until the first bet is placed, players have two options:<font size="4"><br><br>check<br><br>open</font><br></p>
+      
+      <h3>Check</h3>
+      <p>This is the equivalent of betting zero<br>This can only be done  when no one else has bet<br>It shows the player doesn't want to open but still wants to hold their cards to bet/raise/call later.</p>
+
+      <h3>Open</h3>
+      <p>If in any betting round it is the player's turn to act and the action is unopened the player can open action in a beting round by making a bet<br> this is added to the pot to increase it's size<br>n no-limit and pot-limit games, there is a minimum amount that is required to be bet in order to open the action</p>
+
+      <h2>After Open</h2>
+      <p> after someone has opened the option to check is not allowed the players now have three options<font size="4"><br><br>call<br><br>raise<br><br>fold</font></p>
+
+      <h3>Call</h3>
+      <p>To call a is to match a bet or match a raise <br><br>a betting rounds ends when all players have bet and equal amountor when everyone folds to another player's bet or raise<br><br> if no players call another player's rise then that player wins the pot</p>
+
+      <h3>raise</h3>
+      <p>To raise is to increase the size of an existing bet in the same betting round<br>Standard poker rules require that raises must be at least equal to the amount of the previous bet or raise.<br><b id="important">for example<br><br>if an opponent bets £5 then the player must raise by at leat £5(they cannot rise by £2)<br><br>If the player raises by £7(bringing it up to £12)<br><br>if next player decides to raise then they have to raise by at least £7 pounds(taking the pot to £19)</b><br><br>When playing fixed-limit games of poker the size of bets and stakes is specified<br><br>For example in $3/$6 fix limit hold'em the first two betting rounds all opens and raises must be $3<br><br>after the river all opens ad raises must be $6</p>
+
+      <h3>fold</h3>
+      <p>To fold is to discard one's hand and forefit intrest in pot<br><br>No more bets are required from the player but they also can't win</p>
+
+
+    </div>
+</div>
+</ul>
+
+      </ion-content>
+    </ion-pane>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../animation.js"></script>
+  </body>
+</html>
